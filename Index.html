@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>COLEO -TOOLS-</title>
+    <style>
+        html, body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            text-align: center;
+
+            scroll-behavior: smooth;
+        }
+        header {
+            }
+        nav {
+            background-color: black;
+            color: #fff;
+            padding: 10px 0;
+            height: 100%;
+            margin: 10px 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 10px 3%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 250%;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: left;
+        }
+        .h10 {
+            color: white;
+            font-size: 200%;
+            padding-top: 710px;
+        }
+        p {
+            color: #9a9a9a;
+        }
+        footer {
+            background-color: black;
+            color: #fff;
+            padding: 10px 0;
+            bottom: 0;
+            width: 100%;
+        }
+        .img0{
+          height: 60px;
+        }
+        .img1{
+            width: 100%;
+        }
+        .pi{
+            width: 170px;
+            color: white;
+            font-size: xx-large;
+        }
+        .div1{
+            background: url("26.jpg") 50% 50%;
+            background-size: cover;
+            height: 800px;
+            width: 100%;
+            padding: 10px 0px 10px 0px;
+        }
+        .img1{
+            width: 80%;
+        }
+        .container {
+            color: white;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: left;
+            font-size: x-large;
+        }
+        .pi2{
+            width: 170px;
+            color: white;
+            font-size: x-large;
+            
+        }
+        .pi3{
+            width: 50%;
+            color: white;
+            font-size: x-large;
+            padding-left: 25%;
+            text-align: center;
+        }
+        .h20{
+            border-width: 5px;
+            border-color: white;
+            border-style: solid;
+            width: 170px;
+        }
+        .img1488 {
+          border-radius: 50%;
+          -webkit-transition: -webkit-transform .4s ease-in-out;
+          transition:         transform .4s ease-in-out;
+          width: 20%;
+          padding: 2%;
+
+        }
+        .img:hover {
+          -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+         
+        }
+        .slideshow {
+          width:70vw;
+          height: 70vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .h11{
+          color: white;
+        }
+        .h12{
+          color: white;
+          padding-left: 25%;
+          padding-right: 15%;
+        }
+        .img45 {
+          position: absolute;
+          max-width: 50vw;
+          max-height: 40vh;
+          opacity: 0;
+          animation: slideshow 12s ease-in-out infinite;
+        }
+        .pi4{
+          color: black;
+        }
+        @keyframes slideshow {
+        from {
+          opacity: 0;
+          filter: grayscale(100%);
+        }
+
+        5% {
+          opacity: 1;
+          filter: grayscale(50%);
+        }
+
+        10% {
+          opacity: 1;
+          filter: grayscale(0);
+          transform: scale(1.1);
+        }
+
+        15% {
+          opacity: 1;
+          filter: blur(0);
+        }
+
+        20% {
+          opacity: 0;
+          filter: blur(2px);
+          transform: scale(0.9);
+        }
+
+        25% {
+          opacity: 0;
+        }
+        }
+        .slideshow .i_1 {
+          animation-delay: 2s;
+          transform: translateX(-100px) rotate(-3deg);
+        }
+
+        .slideshow .i_2 {
+          animation-delay: 4s;
+          transform: translateX(100px) rotate(3deg);
+        }
+
+        .slideshow .i_3 {
+          animation-delay: 6s;
+          transform: translateY(-100px) rotate(3deg);
+        }
+
+        .slideshow .i_4 {
+          animation-delay: 8s;
+          transform: translateY(100px) rotate(-3deg);
+        }
+
+        .slideshow .i_5 {
+          animation-delay: 10s;
+          transform: rotate(-6deg);
+        }
+
+        .slideshow .i_6 {
+          animation-delay: 12s;
+          transform: rotate(6deg);
+        }
+        .col{
+          width: 50%;
+        }
+        .topnav {
+          overflow: hidden;
+          background-color: black;
+        }
+
+        .topnav a {
+          float: left;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 18px;
+          }
+
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+
+        .topnav a.active {
+          background-color: yellow;
+          color: black;
+        }
+        .sticky{
+          position:-webkit-sticky;
+          position: sticky;
+          top: 0;
+        }
+    </style>
+</head>
+<body>
+ <div>
+  <div id="Home">
+    <header class="sticky">
+      <div class="topnav">
+        <a class="active" href="#Home">Home</a>
+        <a href="#Products">Products</a>
+        <a href="#Gallery">Gallery</a>
+        <a href="#About_us">About us</a>
+        <a href="#Contacts">Contacts</a>
+      </div>
+    </header>
+    <div class="div1">
+     <h1 class="h10"><b>Safety tools for your critical projects</b></h1>
+    </div>
+    <p class="pi" id="Products"><b>Products</b></p> 
+    <div>
+      <img class="img1" src="29 (1).jpeg">
+      <div class="container">
+       <h2 align="center" class="h20">EZ-VIZI</h2>
+        <p class="pi2">Key Features:</p>
+        <ul>
+            <li>Two inclinometers (sensors) with constant readings and cross-comparison.</li>
+            <li>Battery with USB-C charger.</li>
+            <li>Analogue spirit level.</li>
+            <li>Simplified calibration procedure.</li>
+            <li>Display resolution 0.1° or 0.1%.</li>
+            <li>Adjustable visual accuracy range.</li>
+            <li>Three LED brightness modes for day / night use.</li>
+            <li>Charging cable and durable case included.</li>
+            <li>Easy fits in the back-pack or carry-on luggage.</li>
+            <li>Robust construction.</li>
+        </ul>
+    </div>
+    </div>
+    <p class="pi" id="Gallery"><b>Gallery</b></p>
+    <div align="center">
+        <div class="slideshow">
+            <img src="2.jpg" alt="#" class="i_1 img45">
+            <p class="p_1"></p>
+            <img src="3.jpg" alt="#" class="i_2 img45">
+            <p class="p_2"></p>
+            <img src="5.jpg" alt="#" class="i_3 img45">
+            <p class="p_3"></p>
+            <img src="6.jpg" alt="#" class="i_4 img45">
+            <p class="p_4"></p>
+            <img src="7.jpg" alt="#" class="i_5 img45">
+            <p class="p_5"></p>
+            <img src="8.jpg" alt="#" class="i_6 img45">
+            <p class="p_6"></p>
+        </div>   
+    </div>
+    <p class="pi" id="About_us"><b>About us</b></p>
+    <div>
+        <img class="img1488 img" src="corey.png">
+        <img class="img1488 img" src="leonid.png">
+    </div>
+    <br>
+    <div>
+        <h1 class="h11">COREY and LEONID</h1>
+        <p class="pi3">Strong engineering background and many years of field, engineering and managerial experience  within the heavy-lift world are combined to provide the industry with the best custom made tools that increase Safety and simplify the operation.
+            Within COLEO Tools Leonid is responsible for the out-of the box ideas, brainstorming, risk evaluations and commercial matters.
+            Corey is our technical wizard responsible for the design,  procurement, fabrication, testing and assembly processes.
+            </p>
+    </div>
+    <p class="pi" id="Contacts"><b>Contacts</b></p>
+    <div>
+        <h2 class="h12" align="left">
+            Contact:
+            
+        </h2>
+        <h3 class="h12" align="left">
+            +31 (0) 6 21 80 46 25 (Leonid)
+        </h3>
+        <h3 class="h12" align="left">
+            +31 (0) 6 16 16 10 80 (Corey)  
+        </h3>
+        <h3 class="h12" align="left">
+            Email: coleo.tools@gmail.com 
+        </h3>
+    </div>
+    <footer>
+        <p><b>Copyright 2024 © All rights Reserved. Design by Punisher</b></p>
+    </footer>
+  </div>
+</div>
+</body>
+</html>
